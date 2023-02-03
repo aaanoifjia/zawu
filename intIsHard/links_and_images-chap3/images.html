@@ -1,8 +1,28 @@
-<html>
+<html lang='en'> <!--english is the default language-->
   <head>
     <title>Images</title>
   </head>
   <body>
     <h1>Images</h1>
+
+    <h2> Four main image formats: </h3>
+
+      <ul>
+        <li>JPG images are designed for handling large color palettes without exorbitantly increasing file size.<br/> 
+        <img src='images/mochi.jpg' alt='A mochi ball in a bubble'/> </li>
+        <li>GIFs are good for animations.<br/>
+        <img src='images/mochi.gif' alt='A dancing mochi ball'/></li>
+        <li>PNGs are good for diagrams and icons.</li>
+        <img src='images/mochi.png' alt='A mochi ball'/>
+        <li>SVGs are <em>amazing</em>. Use them wherever you can.<br/>
+        <img src='images/mochi.svg' alt='A mochi ball with Bézier handles'/>
+      </ul>
+      <p>We can use the img element's width attribute to alter the size of pixel-based images.</p>
+      <img src='images/mochi.jpg' width='75' alt='A mochi ball in a bubble'/>
+      <img src='images/mochi.gif' width='75' alt='A dancing mochi ball'/>
+      <img src='images/mochi.png' width='75' alt='A mochi ball'/>
+      <p>Notice: the width and height attributes can be useful, but it’s usually better to set image dimensions with CSS so you can alter them with media queries.</p>
+    
+
   </body>
 </html>
