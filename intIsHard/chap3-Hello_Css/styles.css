@@ -1,3 +1,40 @@
+/* Add the following line into your html head to use this sytlesheet:
+<link rel='stylesheet' href='styles.css'/>
+*/
+
 body {
-    color: #FF0000;
+    color: #414141;               /* Dark gray */
+    background-color: #EEEEEE;    /* Light gray */
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* tries to find the fonts with priority from left to right */
+    font-family: "Helvetica", "Arial", sans-serif; 
+    /* make sure all headings are not bold */
+    font-weight: normal;
+}
+  
+h1 {
+    font-size: 2em; /* relative scale with respect to font-size */
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+ul {
+    list-style-type: circle;
+}
+  
+ol {
+    list-style-type: lower-roman;
+}
+
+a {
+    text-decoration: none; /* remove the default underline from links.*/
+}
+
+p {
+    text-align: left; /* defines the alignment of the text */
 }

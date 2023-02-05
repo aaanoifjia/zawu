@@ -1,0 +1,42 @@
+h1,
+p {
+  background-color: #DDE0E3;
+  /* Light gray */
+}
+
+em,
+strong {
+  background-color: #B2D6FF;
+  /* Light blue */
+  /* display: block; */
+  /*acts like blocks */
+}
+
+h1 {
+  padding: 50px;
+  /*, there are -top, -bottom, -left, 
+  and -right variants for the border property:*/
+  border-bottom: 1px solid #B2D6FF;
+  /*border: 1px solid red - for debug */
+}
+
+p {
+  padding: 20px 0 20px 10px;
+  /* Top  Right  Bottom  Left */
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+strong {
+  margin: 50px;
+}
+
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+}
